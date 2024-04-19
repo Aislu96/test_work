@@ -1,0 +1,40 @@
+.main {
+    padding: 113px 94px 126px 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 139px;
+    box-sizing: border-box;
+    height: 932px;
+}
+
+
+.main__auth {
+    display: flex;
+    flex-direction: column;
+    padding: 108px 60px 40px 59px;
+}
+
+.main__from {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main__block {
+    padding-top: 210px;
+    padding-bottom: 209px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.main__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.main__subtitle {
+    margin: 0;
+}
