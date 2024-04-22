@@ -22,8 +22,7 @@ CFDs with this provider. You should consider whether you understand how CFDs wo
                         <li className="header__link"><Link to="/forex-trading" className="header__link-text">Forex
                             Trading</Link></li>
                         <li className="header__link"><Link to="/tools" className="header__link-text">Tools</Link></li>
-                        <li className="header__link"><Link to="/partner-with-us" className="header__link-text">Partner
-                            With Us</Link></li>
+                        <li className="header__link header__link_color"><Link to="/partner-with-us" className="header__link-text">Partner With Us</Link></li>
                     </ul>
                 </nav>
             </div>

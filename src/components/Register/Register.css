@@ -122,7 +122,8 @@
     background: #fff;
     display: inline-block;
     padding: 0 18px;
-    position: relative
+    position: relative;
+    font-size: 20px;
 }
 
 .main__container:before {
@@ -155,6 +156,7 @@
     text-align: center;
     margin: 0;
     color: #959595;
+    font-size: 16px;
 }
 
 .main__text-link {
