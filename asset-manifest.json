@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cffd9bdf.css",
+    "main.js": "/static/js/main.ede77e8d.js",
+    "static/media/imageFonts.svg": "/static/media/imageFonts.f7fdaa957cd209e61961.svg",
+    "static/media/logoGoogle.svg": "/static/media/logoGoogle.9bf94de25d88f5a92fd102c74fea3dda.svg",
+    "static/media/logoFacebook.svg": "/static/media/logoFacebook.504eee4d3e74087efb04c9318caeba3b.svg",
+    "static/media/logoApple.svg": "/static/media/logoApple.2dd28c13ee0b2ccfc55a473d89976711.svg",
+    "static/media/logo.svg": "/static/media/logo.717de157d665310b3ac15cd06b38abd3.svg",
+    "static/media/flag.svg": "/static/media/flag.d277a060295ceb2a219c640b1d37dafd.svg",
+    "index.html": "/index.html",
+    "main.cffd9bdf.css.map": "/static/css/main.cffd9bdf.css.map",
+    "main.ede77e8d.js.map": "/static/js/main.ede77e8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cffd9bdf.css",
+    "static/js/main.ede77e8d.js"
+  ]
+}
