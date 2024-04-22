@@ -1,8 +1,9 @@
 import './App.css';
 import Header from "../Header/Header";
-import {Route, Routes} from "react-router-dom";
 import NotFoundPage from "../NotFoundPage/NotFoundPage";
 import Register from "../Register/Register";
+import * as auth from "../../utils/auth";
+import {Route, Routes, useNavigate} from "react-router-dom";
 
 
 
@@ -30,14 +31,28 @@ function PartnerWithUs() {
     return null;
 }
 
+
 function App() {
+    const navigate = useNavigate();
+
+    function handelRegistration({email, fullname}) {
+        auth.register(email, fullname).then((res) => {
+            if(res) {
+                navigate('/login', {replace: true});
+            }
+        })
+            .catch((err) => {
+                console.log(err)
+            })
+    }
+
     return (
         <div className="App">
             <Routes>
                 <Route path="/register" element={
                     <>
                         <Header/>
-                        <Register/>
+                        <Register onSignup={handelRegistration}/>
                     </>
                 }></Route>
                 <Route path="/account" element={
