@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.cffd9bdf.css",
-    "main.js": "/static/js/main.ede77e8d.js",
-    "static/media/imageFonts.svg": "/static/media/imageFonts.f7fdaa957cd209e61961.svg",
-    "static/media/logoGoogle.svg": "/static/media/logoGoogle.9bf94de25d88f5a92fd102c74fea3dda.svg",
-    "static/media/logoFacebook.svg": "/static/media/logoFacebook.504eee4d3e74087efb04c9318caeba3b.svg",
-    "static/media/logoApple.svg": "/static/media/logoApple.2dd28c13ee0b2ccfc55a473d89976711.svg",
-    "static/media/logo.svg": "/static/media/logo.717de157d665310b3ac15cd06b38abd3.svg",
-    "static/media/flag.svg": "/static/media/flag.d277a060295ceb2a219c640b1d37dafd.svg",
-    "index.html": "/index.html",
-    "main.cffd9bdf.css.map": "/static/css/main.cffd9bdf.css.map",
-    "main.ede77e8d.js.map": "/static/js/main.ede77e8d.js.map"
+    "main.css": "/test_work/static/css/main.d967b70d.css",
+    "main.js": "/test_work/static/js/main.47ad0a30.js",
+    "static/media/imageFonts.svg": "/test_work/static/media/imageFonts.4f286bc7b455be57e078.svg",
+    "static/media/logoGoogle.svg": "/test_work/static/media/logoGoogle.935cee34d513c29f7441dc8ab26b489d.svg",
+    "static/media/logoFacebook.svg": "/test_work/static/media/logoFacebook.843666815c361cdfe32298f3ccaea7fd.svg",
+    "static/media/logoApple.svg": "/test_work/static/media/logoApple.07eb9fe3268c3fef9d9950a73a446bfa.svg",
+    "static/media/logo.svg": "/test_work/static/media/logo.97d982ec66928fb893d1365eb79e4fcd.svg",
+    "static/media/flag.svg": "/test_work/static/media/flag.c5891f23d49b1323350f252218dce374.svg",
+    "index.html": "/test_work/index.html",
+    "main.d967b70d.css.map": "/test_work/static/css/main.d967b70d.css.map",
+    "main.47ad0a30.js.map": "/test_work/static/js/main.47ad0a30.js.map"
   },
   "entrypoints": [
-    "static/css/main.cffd9bdf.css",
-    "static/js/main.ede77e8d.js"
+    "static/css/main.d967b70d.css",
+    "static/js/main.47ad0a30.js"
   ]
 }
