@@ -7,7 +7,7 @@
 
 ------
 
-Ссылка на gh-pages: https://aislu96.github.io/test-work
+Ссылка на gh-pages: https://aislu96.github.io/test_work
 
 ------
 

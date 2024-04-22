@@ -49,7 +49,7 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path="/register" element={
+                <Route path="/" element={
                     <>
                         <Header/>
                         <Register onSignup={handelRegistration}/>
