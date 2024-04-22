@@ -20,8 +20,7 @@ function Register({onSignup}) {
         onSignup(values);
     }
     return (
-        <main className="image-container__fonts">
-            <div className="image-container">
+            <main className="image-container">
                 <div className="main">
                     <div className="main__block">
                         <h1 className="main__title">Trade with a broker Who is Fair and Reputable</h1>
@@ -50,7 +49,7 @@ function Register({onSignup}) {
                         <div className="main__container">
                             <span>Or register via</span>
                         </div>
-                        <div className="main_img-block">
+                        <div className="main__img-block">
                             <a href="https://google.com" target="_blank" rel="noreferrer"><img src={logoGoogle} alt="Картинка логотипа Google" className="main__logo-img"/></a>
                             <a href="https://facebook.com" target="_blank" rel="noreferrer"><img src={logoFacebook} alt="Картинка логотипа Facebook" className="main__logo-img"/></a>
                                 <a href="https://apple.com" target="_blank" rel="noreferrer"><img src={logoApple} alt="Картинка логотипа Apple" className="main__logo-img"/></a>
@@ -60,8 +59,6 @@ function Register({onSignup}) {
                             In</Link><br/>By registreting you agree to our privacy policy</p>
                     </div>
                 </div>
-
-            </div>
         </main>
 
     );

@@ -136,7 +136,7 @@
 }
 
 
-.main_img-block {
+.main__img-block {
     display: flex;
     align-items: center;
     flex-direction: row;
