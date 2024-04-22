@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/test_work/static/css/main.d967b70d.css",
-    "main.js": "/test_work/static/js/main.c96c9d46.js",
+    "main.css": "/test_work/static/css/main.95e30868.css",
+    "main.js": "/test_work/static/js/main.19ffc4e7.js",
     "static/media/imageFonts.svg": "/test_work/static/media/imageFonts.4f286bc7b455be57e078.svg",
+    "static/media/AnyConv.com__Roboto-Bold.woff2?v=3.19": "/test_work/static/media/AnyConv.com__Roboto-Bold.8a3fd86a7547debc158a.woff2",
+    "static/media/AnyConv.com__Roboto-Medium.woff2?v=3.19": "/test_work/static/media/AnyConv.com__Roboto-Medium.689933d35b3bf109532d.woff2",
+    "static/media/AnyConv.com__Roboto-Regular.woff2?v=3.19": "/test_work/static/media/AnyConv.com__Roboto-Regular.8a7dbac2dba572ea5684.woff2",
+    "static/media/Roboto-Bold.woff?v=3.19": "/test_work/static/media/Roboto-Bold.67373173991e4aebc11d.woff",
+    "static/media/Roboto-Regular.woff?v=3.19": "/test_work/static/media/Roboto-Regular.7900f774b621c0daa137.woff",
+    "static/media/Roboto-Medium.woff?v=3.19": "/test_work/static/media/Roboto-Medium.ad720ee05b316b385436.woff",
+    "static/media/AnyConv.com__roboto-serif-14pt-extraexpanded-extrabold.woff2?v=3.19": "/test_work/static/media/AnyConv.com__roboto-serif-14pt-extraexpanded-extrabold.929eca58b5e209bb9992.woff2",
+    "static/media/roboto-serif-14pt-extraexpanded-extrabold.woff?v=3.19": "/test_work/static/media/roboto-serif-14pt-extraexpanded-extrabold.acbfcfa7214a9791f7d9.woff",
+    "static/media/AnyConv.com__ofont.ru_Roboto-Medium.woff2?v=3.19": "/test_work/static/media/AnyConv.com__ofont.ru_Roboto-Medium.26dbf41e9fdcdc00c020.woff2",
+    "static/media/ofont.ru_Roboto-Medium.woff?v=3.19": "/test_work/static/media/ofont.ru_Roboto-Medium.021494a141205ce3c7be.woff",
     "static/media/logoGoogle.svg": "/test_work/static/media/logoGoogle.935cee34d513c29f7441dc8ab26b489d.svg",
     "static/media/logoFacebook.svg": "/test_work/static/media/logoFacebook.843666815c361cdfe32298f3ccaea7fd.svg",
     "static/media/logoApple.svg": "/test_work/static/media/logoApple.07eb9fe3268c3fef9d9950a73a446bfa.svg",
     "static/media/logo.svg": "/test_work/static/media/logo.97d982ec66928fb893d1365eb79e4fcd.svg",
     "static/media/flag.svg": "/test_work/static/media/flag.c5891f23d49b1323350f252218dce374.svg",
     "index.html": "/test_work/index.html",
-    "main.d967b70d.css.map": "/test_work/static/css/main.d967b70d.css.map",
-    "main.c96c9d46.js.map": "/test_work/static/js/main.c96c9d46.js.map"
+    "main.95e30868.css.map": "/test_work/static/css/main.95e30868.css.map",
+    "main.19ffc4e7.js.map": "/test_work/static/js/main.19ffc4e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d967b70d.css",
-    "static/js/main.c96c9d46.js"
+    "static/css/main.95e30868.css",
+    "static/js/main.19ffc4e7.js"
   ]
 }
