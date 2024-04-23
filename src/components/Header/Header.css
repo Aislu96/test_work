@@ -19,6 +19,7 @@
     color: #BDBABA;
     width: 100%;
 }
+
 .header__blocks {
     padding: 18px 40px 24px;
     display: flex;
@@ -147,4 +148,37 @@ i {
 
 .header__list-text_login {
     color: #0165FF;
+}
+
+
+@media screen and (max-width: 1000px){
+    .header__info {
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .header__span {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .header__span {
+        font-size: 12px;
+    }
+    .header__info {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .header__span {
+        font-size: 10px;
+    }
+    .header__info {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
