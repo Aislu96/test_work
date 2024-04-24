@@ -1,7 +1,6 @@
 :root {
   display: flex;
   flex-direction: column;
-  max-width: 1658px;
   margin: 0 auto;
   min-width: 320px;
   background-color: #FFFFFF;
