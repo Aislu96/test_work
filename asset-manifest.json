@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test_work/static/css/main.d48f59f4.css",
-    "main.js": "/test_work/static/js/main.ec0484f3.js",
+    "main.css": "/test_work/static/css/main.82de788d.css",
+    "main.js": "/test_work/static/js/main.88ee3b1e.js",
     "static/media/imageFonts.svg": "/test_work/static/media/imageFonts.4f286bc7b455be57e078.svg",
     "static/media/AnyConv.com__Roboto-Bold.woff2?v=3.19": "/test_work/static/media/AnyConv.com__Roboto-Bold.8a3fd86a7547debc158a.woff2",
     "static/media/AnyConv.com__Roboto-Medium.woff2?v=3.19": "/test_work/static/media/AnyConv.com__Roboto-Medium.689933d35b3bf109532d.woff2",
@@ -19,11 +19,11 @@
     "static/media/logo.svg": "/test_work/static/media/logo.97d982ec66928fb893d1365eb79e4fcd.svg",
     "static/media/flag.svg": "/test_work/static/media/flag.c5891f23d49b1323350f252218dce374.svg",
     "index.html": "/test_work/index.html",
-    "main.d48f59f4.css.map": "/test_work/static/css/main.d48f59f4.css.map",
-    "main.ec0484f3.js.map": "/test_work/static/js/main.ec0484f3.js.map"
+    "main.82de788d.css.map": "/test_work/static/css/main.82de788d.css.map",
+    "main.88ee3b1e.js.map": "/test_work/static/js/main.88ee3b1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d48f59f4.css",
-    "static/js/main.ec0484f3.js"
+    "static/css/main.82de788d.css",
+    "static/js/main.88ee3b1e.js"
   ]
 }
