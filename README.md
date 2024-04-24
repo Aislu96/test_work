@@ -5,8 +5,8 @@
 
 ## Описание проекта:
 Тестовое задание для компании Binorix.
-Figma: https://www.figma.com/file/ZMmOOy1ioP1sBLFCXoakxC/Untitled?type=design&node-id=1-52&mode=design&t=ZAsvwW31zSDbkLXm-0
 
+![img_1.png](img_1.png)
 ------
 
 Ссылка на gh-pages: https://aislu96.github.io/test_work
