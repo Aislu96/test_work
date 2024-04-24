@@ -5,6 +5,7 @@ import logoFacebook from "../../images/logoFacebook.svg";
 import logoApple from "../../images/logoApple.svg";
 import React from "react";
 import useFormValidation from "../../hooks/useFormValidation";
+import { Typewriter } from 'react-simple-typewriter'
 
 function Register({onSignup}) {
     const {values, errors, handleChange, setValues, resetValidation, isValid} = useFormValidation({});
@@ -23,7 +24,7 @@ function Register({onSignup}) {
         <main className="image-container">
             <div className="main">
                 <div className="main__block">
-                    <h1 className="main__title">Trade with a broker Who is Fair and Reputable</h1>
+                    <h1 className="main__title"><Typewriter words={['Trade with a broker Who is Fair and Reputable']}/></h1>
                     <h2 className="main__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry. Lorem Ipsum has been the industry's standard dummy
                         text ever since the 1500s.</h2>

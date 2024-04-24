@@ -5,7 +5,6 @@
     flex-direction: row;
     gap: 139px;
     box-sizing: border-box;
-    max-height: 932px;
     max-width: 1658px;
     width: 100%;
 }
@@ -38,7 +37,6 @@
 
 .main__input {
     padding: 25px 20px;
-    margin-bottom: 28px;
     border-radius: 6px;
     border: 1px solid #959595;
     font-size: 18px;
@@ -107,6 +105,8 @@
     font-weight: 400;
     line-height: 15px;
     width: 100%;
+    margin-bottom: 18px;
+    margin-top: 10px;
 }
 
 .main__container {

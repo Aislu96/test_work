@@ -4,6 +4,7 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+
 .header__info {
     display: flex;
     justify-content: center;
@@ -24,13 +25,18 @@
     padding: 18px 40px 24px;
     display: flex;
     flex-direction: row;
-    gap: 173px;
+    /*gap: 173px;*/
+    justify-content: space-between;
 }
 
 .header__logo {
     width: 293px;
     height: 60px;
     padding-bottom: 8px;
+}
+.header__logo:hover {
+    opacity: 0.3;
+    cursor: pointer;
 }
 
 .header__container {
@@ -98,6 +104,11 @@ i {
     max-width: 142px;
 }
 
+.header__link-text:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
 
 .header__block {
     display: flex;
@@ -124,6 +135,11 @@ i {
     color: #FFFFFF;
 }
 
+.header__btn-auth :hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
 .header__btn-account {
     background-color: #F05B22;
     border-radius: 33px;
@@ -135,6 +151,10 @@ i {
     margin-right: 40px;
     font-size: 20px;
 }
+.header__btn-account :hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
 
 .header__btn-login {
     font-size: 18px;
@@ -145,13 +165,52 @@ i {
     align-items: center;
     padding-left: 40px;
 }
+.header__btn-login :hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
 
 .header__list-text_login {
     color: #0165FF;
 }
 
+.header__block-active {
+    display: none;
+}
 
-@media screen and (max-width: 1000px){
+
+@media screen and (max-width: 1500px) {
+    .header__blocks {
+        gap: 20px;
+    }
+
+    .header__logo {
+        width: 200px;
+    }
+
+    .header__btn-auth {
+        height: 45px;
+        width: 120px;
+        margin-right: 0;
+    }
+
+    .header__list-text {
+        font-size: 18px;
+    }
+
+    .header__btn-account {
+        height: 45px;
+        width: 180px;
+        margin-right: 0;
+    }
+
+    .header__btn-login {
+        padding-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1110px) {
     .header__info {
         padding-left: 110px;
         padding-right: 110px;
@@ -161,24 +220,133 @@ i {
         font-size: 15px;
     }
 
+    .header__logo {
+        width: 180px;
+    }
+
+    .header__blocks {
+        padding: 15px 30px;
+    }
+
+    .header__btn-auth {
+        width: 90px;
+    }
+
+    .header__list-text {
+        font-size: 15px;
+    }
+
+    .header__list {
+        gap: 15px;
+    }
+
+    .header__container {
+        gap: 20px;
+    }
+
+    .header__btn-account {
+        width: 120px;
+    }
+
+    .header__link {
+        width: 80px;
+        font-size: 15px;
+        text-align: left;
+    }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1030px) {
+    .header__block {
+        display: none;
+    }
+    .header__blocks {
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header__block-active {
+        display: flex;
+        row-gap: 18px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
     .header__span {
         font-size: 12px;
     }
+
     .header__info {
         padding-left: 60px;
         padding-right: 60px;
     }
+    .header__logo {
+        width: 150px;
+    }
+    .header__link {
+        width: auto;
+        font-size: 12px;
+    }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 560px){
+.header__logo{
+    width: 120px;
+    height: 45px;
+}
+    .header__link-text {
+        padding: 0;
+    }
+    .header__blocks {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header__block-active{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .header__span {
         font-size: 10px;
     }
+i {
+    margin-right: 15px;
+}
     .header__info {
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .header__container {
+        flex-direction: column;
+        gap: 0;
+    }
+    .header__blocks {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .header__link {
+        font-size: 11px;
+        text-align: center;
+    }
+    .header__btn-auth {
+        width: 70px;
+        height: 30px;
+        font-size: 18px;
+    }
+    .header__btn-account {
+        width: 100px;
+        height: 30px;
+        font-size: 18px;
+    }
+    .header__list-text {
+        font-size: 12px;
+    }
+    .header__btn-login {
+        padding-left: 10px;
     }
 }
